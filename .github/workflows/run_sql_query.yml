@@ -24,4 +24,4 @@ jobs:
         MYSQL_DB: Rfam
       run: |
         echo "Выполнение SQL-скрипта..."
-        mysql --host=$MYSQL_HOST --user=$MYSQL_USER --port=$MYSQL_PORT --database=$MYSQL_DB < test1.sql > ~./my_project/sql_log.txt 2>&1
+        mysql --host=$MYSQL_HOST --user=$MYSQL_USER --port=$MYSQL_PORT --database=$MYSQL_DB < test1.sql > ~/my_project/sql_log.txt 2>&1
