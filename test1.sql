@@ -1,5 +1,5 @@
 --Запрос 1
-select * from fr.fram_acc limit 1;
+select * from fr.fram_acc limit 2;
 --Запрос 2
 SELECT fr.rfam_acc, fr.rfamseq_acc, fr.seq_start, fr.seq_end
 FROM full_region fr, rfamseq rf, taxonomy tx
